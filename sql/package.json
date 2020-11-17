@@ -1,0 +1,32 @@
+{
+  "name": "mongodb-note-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/cosmos": "^3.9.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start:client": "react-scripts start",
+    "start": "node server/index.js",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
